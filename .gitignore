@@ -3,13 +3,13 @@
 # ========================================
 
 # Banco de dados (persistência)
-mariadb_data/
+mariadb/
 
 # Dados de usuários, cache, sessões
-moodledata_data/
+moodle_data/
 
 # Core do Moodle (mantido pela imagem Bitnami)
-moodle_data/
+moodle/
 
 # ========================================
 # Customizações (mantenha apenas essas pastas)
