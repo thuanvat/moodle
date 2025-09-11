@@ -9,7 +9,7 @@ mariadb/
 moodle_data/
 
 # Core do Moodle (mantido pela imagem Bitnami)
-moodle/
+moodle/*
 
 # ========================================
 # Customizações (mantenha apenas essas pastas)
@@ -17,7 +17,8 @@ moodle/
 # Não ignore os plugins/temas customizados
 # Exemplo:
 # !moodle_data/custom_plugins/
-# !moodle_data/custom_themes/
+!moodle/theme/
+!moodle/theme/**
 
 # ========================================
 # Docker
